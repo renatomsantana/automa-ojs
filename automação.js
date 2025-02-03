@@ -3,7 +3,7 @@ function doGet() {
 }
 
 function processarCurriculos(pastaId, keywords) {
-  var planilhaId = "SUA_PLANILHA_ID_AQUI"; // Substitua pelo ID da planilha
+  var planilhaId = "1rtUKm7ovSudz5ivN_5KaDz02hka7J6X5jBHDlXSq1zc"; // Substitua pelo ID da planilha
   var pasta = DriveApp.getFolderById(pastaId);
   var arquivos = pasta.getFiles();
   var resultados = [];
